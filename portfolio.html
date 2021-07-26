@@ -14,25 +14,28 @@
 
 <body>
     <!--Шапка страницы-->
-    <header class="conteiner">
+    <header>
         <!--Навигация на другие страницы-->
+        <div class="conteiner">
         <nav class="navigation">
             <a class="logo-link" lang="en" href="./index.html"><span class="logo-color">Web</span>Studio</a>
             <ul class="list-nav">
-                <li><a class="navigation-link" href="./index.html">Студия</a></li>
-                <li><a class="navigation-link logo-color" href="./portfolio.html">Портфолио</a></li>
-                <li><a class="navigation-link" href="#">Контакты</a></li>
+                <li class="item"><a class="navigation-link" href="./index.html">Студия</a></li>
+                <li class="item"><a class="navigation-link logo-color" href="./portfolio.html">Портфолио</a></li>
+                <li class="item"><a class="navigation-link" href="#">Контакты</a></li>
             </ul>
         </nav>
             <ul class="contacts-list" >
-                <li><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="item"><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="item"><a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
+        </div>    
     </header>
     <!--Уникальный контент страницы-->
     <main>
         <!--Portfolio section-->
         <section class="section-portfolio">
+            <div class="conteiner">
             <h1 hidden>Portfolio</h1>
             <ul class="portfolio-list-btn">
                 <li><button class="portfolio-btn all acting" type="button">Все</button></li>
@@ -45,65 +48,87 @@
             <!--List link-->
     
             <ul class="portfolio-list">
-                <li> <a class="link-img" href="#">
+                
+                <li class="item"> <a class="link-img" href="#">
                     <img src="./images/port1.jpg" alt="Mac Book" width="370" height="294"/>
+                    <div class="conteiner-portfolio">
                     <h2 class="heading-portfolio-list">Технокряк</h2>
                     <p class="text-list">Веб-сайт</p>
+                    </div>
                      </a>
                 </li>
-                <li> <a class="link-img" href="#">
+                
+                <li class="item"> <a class="link-img" href="#">
                     <img src="./images/port2.jpg" alt="Баскетбольны мвтч" width="370" height="294" />
+                    <div class="conteiner-portfolio">
                     <h2 class="heading-portfolio-list">Постер New Orlean vs Golden Star</h2>
                     <p class="text-list">Дизайн</p>
+                    </div>
                      </a>
                 </li>
-                <li> <a class="link-img" href="#">
+                <li class="item"> <a class="link-img" href="#">
                     <img src="./images/port3.jpg" alt="Логотип ресторна морской еды" width="370" height="294"/>
+                    <div class="conteiner-portfolio">
                     <h2 class="heading-portfolio-list">Ресторан Seafood</h2>
                     <p class="text-list">Приложение</p>
+                    </div>
                      </a>
                 </li>
-                <li> <a class="link-img" href="#">
+                <li class="item"> <a class="link-img" href="#">
                     <img src="./images/port4.jpg" alt="Наушники" width="370" height="294"/>
+                    <div class="conteiner-portfolio">
                     <h2 class="heading-portfolio-list">Проект Prime</h2>
                     <p class="text-list">Проект Prime</p>
+                    </div>
                      </a>
                 </li>
-                <li> <a class="link-img" href="#">
+                <li class="item"> <a class="link-img" href="#">
                     <img src="./images/port5.jpg" alt="Две коробки" width="370" height="294" />
+                    <div class="conteiner-portfolio">
                     <h2 class="heading-portfolio-list">Проект Boxes</h2>
                     <p class="text-list">Приложение</p>
+                    </div>
                      </a>
                 </li>
-                <li> <a class="link-img" href="#">
+                <li class="item"> <a class="link-img" href="#">
                     <img src="./images/port6.jpg" alt="IMac" width="370" height="294"/>
+                    <div class="conteiner-portfolio">
                     <h2 class="heading-portfolio-list">Inspiration has no Borders</h2>
                     <p class="text-list">Веб-сайт</p>
+                    </div>
                      </a>
                 </li>
-                <li> <a class="link-img" href="#">
+                <li class="item"> <a class="link-img" href="#">
                     <img src="./images/port7.jpg" alt="Журнал" width="370" height="294"/>
+                    <div class="conteiner-portfolio">
                     <h2 class="heading-portfolio-list">Издание Limited Edition</h2>
                     <p class="text-list">Дизайн</p>
+                    </div>
                      </a>
                 </li>
-                <li> <a class="link-img" href="#">
+                <li class="item"> <a class="link-img" href="#">
                     <img src="./images/port8.jpg" alt="Табличка" width="370" height="294"/>
+                    <div class="conteiner-portfolio">
                     <h2 class="heading-portfolio-list">Проект LAB</h2>
                     <p class="text-list">Маркетинг</p>
+                    </div>
                      </a>
                 </li>
-                <li> <a class="link-img" href="#">
+                <li class="item"> <a class="link-img" href="#">
                     <img src="./images/port9.jpg" alt="Работа на ноутбуке" width="370" height="294"/>
+                    <div class="conteiner-portfolio">
                     <h2 class="heading-portfolio-list">Growing Business</h2>
                     <p class="text-list">Приложения</p>
+                    </div>
                      </a>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
     <!--footer page-->
     <footer class="footer">
+        <div class="conteiner">
         <a class="logo-footer"  lang="en" href="#"><span class="logo-color">Web</span>Studio</a>
         <address class="address">
             <ul class="list-address">
@@ -118,6 +143,7 @@
                 </li>
             </ul>
         </address>
+    </div>
     </footer>
     
 </body>
