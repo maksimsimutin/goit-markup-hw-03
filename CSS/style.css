@@ -104,10 +104,7 @@ header .conteiner {
 }
 
 .list-nav .item {
-  display: block;
   margin-right: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .list-nav .item:last-child{
@@ -115,7 +112,10 @@ header .conteiner {
 }
 
 .navigation-link {
+  display: block;
   text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .contacts-list {
@@ -133,6 +133,7 @@ header .conteiner {
 }
 
 .contacts-link {
+  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -189,6 +190,7 @@ header .conteiner {
 
 .order-service-title {
   max-width: 710px;
+  margin-bottom: 30px;
 
   font-weight: 900;
   font-size: 44px;
@@ -200,20 +202,19 @@ header .conteiner {
 
 .button-order-service {
   
-    font-family: Roboto,sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.9;
-    align-items: center;
-    letter-spacing: 0.06em;
-    
     display: inline-block;
     border: none;
     min-width: 200px;
     height: 50px;
     border-radius: 4px;
     padding: 10px 32px;
-    margin-top: 30px;
+    
+    font-family: Roboto,sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    align-items: center;
+    letter-spacing: 0.06em;
     
     cursor: pointer;
     
@@ -247,6 +248,7 @@ header .conteiner {
 }
 
 .heading-info {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -256,8 +258,6 @@ header .conteiner {
 }
 
 .text-info {
-  margin-top: 10px;
-
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -272,6 +272,8 @@ header .conteiner {
 }
 
 .heading-we-doing {
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height:1.16;
@@ -281,7 +283,6 @@ header .conteiner {
 
 .list-we-doing {
   display: flex;
-  margin-top: 50px;
   list-style: none;
 }
 
@@ -355,14 +356,11 @@ header .conteiner {
 /*Footer*/
 
 footer {
-  padding-bottom: 60px;
+  padding: 60px 0px;
   background-color: var(--secondary-color);
 }
 
-.logo-footer{
-  display: block;
-  padding-top: 60px;
-    
+.logo-footer {  
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
